@@ -1,0 +1,40 @@
+aid: beautiful-soup
+name: Beautiful Soup
+description: >-
+  Beautiful Soup is a Python library for pulling data out of HTML and XML
+  files, widely used for web scraping and screen scraping tasks.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Scraping
+  - HTML Parsing
+  - Data Extraction
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/apis.yml
+created: '2026-03-29'
+modified: '2026-03-29'
+specificationVersion: '0.19'
+apis:
+  - aid: beautiful-soup:beautiful-soup
+    name: Beautiful Soup
+    description: >-
+      Beautiful Soup is a Python library for pulling data out of HTML and XML
+      files, widely used for web scraping and screen scraping tasks.
+    humanURL: https://www.crummy.com/software/BeautifulSoup/
+    tags:
+      - Scraping
+      - HTML Parsing
+      - Data Extraction
+    properties:
+      - type: Documentation
+        url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+      - type: Getting Started
+        url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+common:
+  - type: Website
+    url: https://www.crummy.com/software/BeautifulSoup/
+  - type: Documentation
+    url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
