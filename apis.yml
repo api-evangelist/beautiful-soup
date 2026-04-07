@@ -6,9 +6,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Scraping
-  - HTML Parsing
   - Data Extraction
+  - HTML Parsing
+  - Scraping
 url: >-
   https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/apis.yml
 created: '2026-03-29'
@@ -22,9 +22,9 @@ apis:
       files, widely used for web scraping and screen scraping tasks.
     humanURL: https://www.crummy.com/software/BeautifulSoup/
     tags:
-      - Scraping
-      - HTML Parsing
       - Data Extraction
+      - HTML Parsing
+      - Scraping
     properties:
       - type: Documentation
         url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
