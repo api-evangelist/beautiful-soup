@@ -57,7 +57,7 @@ common:
     title: PyPI Package
   - type: GitHubOrganization
     url: https://bazaar.launchpad.net/~leonardr/beautifulsoup/bs4
-  - type: Changelog
+  - type: ChangeLog
     url: https://bazaar.launchpad.net/~leonardr/beautifulsoup/bs4/view/head:/CHANGELOG
   - type: Features
     data:
