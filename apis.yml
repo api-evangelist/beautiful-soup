@@ -43,7 +43,7 @@ apis:
         url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
       - type: GettingStarted
         url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/beautifulsoup4/
         title: Python Package (PyPI)
 
@@ -52,7 +52,7 @@ common:
     url: https://www.crummy.com/software/BeautifulSoup/
   - type: Documentation
     url: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-  - type: SDK
+  - type: SDKs
     url: https://pypi.org/project/beautifulsoup4/
     title: PyPI Package
   - type: GitHubOrganization
