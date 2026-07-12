@@ -48,6 +48,8 @@ apis:
         title: Python Package (PyPI)
 
 common:
+  - type: DomainSecurity
+    url: security/beautiful-soup-domain-security.yml
   - type: Website
     url: https://www.crummy.com/software/BeautifulSoup/
   - type: Documentation
