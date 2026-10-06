@@ -42,7 +42,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/apis.yml
 created: '2026-03-29'
-modified: '2026-04-19'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: beautiful-soup:beautiful-soup
@@ -71,6 +71,8 @@ apis:
         title: Python Package (PyPI)
 
 common:
+  - url: https://www.crummy.com/atom.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/beautiful-soup-domain-security.yml
   - type: Website
