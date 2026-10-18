@@ -36,6 +36,12 @@ tags:
   - Data Extraction
   - HTML Parsing
   - Python
+  - Web Scraping
+  - XML Parsing
+tags_raw:
+  - Data Extraction
+  - HTML Parsing
+  - Python
   - Scraping
   - Web Scraping
   - XML Parsing
@@ -55,6 +61,12 @@ apis:
       Supports html.parser, lxml, and html5lib parsers with automatic encoding detection.
     humanURL: https://www.crummy.com/software/BeautifulSoup/
     tags:
+      - Data Extraction
+      - HTML Parsing
+      - Python
+      - Web Scraping
+      - XML Parsing
+    tags_raw:
       - Data Extraction
       - HTML Parsing
       - Python
