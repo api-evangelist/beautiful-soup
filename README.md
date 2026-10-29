@@ -1,4 +1,4 @@
-# Beautiful Soup (beautiful-soup)
+# Beautiful Soup
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,78 +66,102 @@
 
 Beautiful Soup is a Python library for pulling data out of HTML and XML files, widely used for web scraping and screen scraping tasks. It provides a parse tree API with simple methods for navigating, searching, and modifying parsed HTML/XML documents. Beautiful Soup automatically handles encoding, supports multiple parsers (html.parser, lxml, html5lib), and integrates with CSS selectors via the Soup Sieve library. Current stable version is 4.14.3.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/apis.yml)
+**Areas:** Data Extraction · HTML Parsing · Python · Web Scraping · XML Parsing
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Beautiful Soup on APIs.io
 
-## Tags:
+Everything profiled for Beautiful Soup is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/beautiful-soup/](https://apis.io/providers/beautiful-soup/)** — or go straight to one of the APIs or properties below.
 
- - Data Extraction, HTML Parsing, Python, Scraping, Web Scraping, XML Parsing
+### APIs (1)
 
-## Timestamps
+- [Beautiful Soup](https://apis.io/apis/beautiful-soup/beautiful-soup/) — Beautiful Soup 4 is a Python library providing a parse tree API for HTML and XML documents. It exposes Tag, NavigableString, BeautifulSoup, and Comment…
 
-- **Created:** 2026-03-29
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Beautiful Soup
-Beautiful Soup 4 is a Python library providing a parse tree API for HTML and XML documents. It exposes Tag, NavigableString, BeautifulSoup, and Comment objects with navigation methods (find, find_all, CSS selectors), tree traversal (parents, children, siblings), and modification methods (append, extract, replace). Supports html.parser, lxml, and html5lib parsers with automatic encoding detection.
+#### Security (1)
 
-**Human URL:** [https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Beautiful Soup Domain Security](https://apis.io/security/beautiful-soup/beautiful-soup-domain-security/)
 
- - Data Extraction, HTML Parsing, Python, Scraping, Web Scraping, XML Parsing
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [GettingStarted](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start)
-- [SDK - Python Package (PyPI)](https://pypi.org/project/beautifulsoup4/)
+- [Beautiful Soup Plans Pricing](https://apis.io/plans/beautiful-soup/beautiful-soup-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Beautiful Soup Rate Limits](https://apis.io/rate-limits/beautiful-soup/beautiful-soup-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Beautiful Soup Finops](https://apis.io/finops/beautiful-soup/beautiful-soup-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.crummy.com/software/BeautifulSoup/)
 - [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [SDK - PyPI Package](https://pypi.org/project/beautifulsoup4/)
 - [Changelog](https://bazaar.launchpad.net/~leonardr/beautifulsoup/bs4/view/head:/CHANGELOG)
+- [GitHub](https://bazaar.launchpad.net/~leonardr/beautifulsoup/bs4)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Multi-Parser Support | Supports html.parser (built-in), lxml (fast), and html5lib (browser-like) parsers for flexible HTML/XML parsing. |
-| CSS Selector Support | Full CSS4 selector support via the Soup Sieve library for familiar CSS-based element selection. |
-| Tree Navigation API | Rich API for navigating the parse tree upward, downward, and sideways including find(), find_all(), parents, children, and siblings. |
-| Automatic Encoding Detection | Automatically detects and handles document encoding using Unicode, Dammit, ensuring correct text extraction. |
-| Tree Modification | Full tree modification support including append, insert, extract, decompose, replace_with, wrap, and unwrap operations. |
-| Output Formatting | Multiple output formatters including prettify(), get_text(), and custom formatters for controlled serialization. |
+**Kin Score 13.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Web Scraping | Extract data from websites by parsing HTML pages with Beautiful Soup and navigating the DOM tree to find target elements. |
-| Data Mining | Mine structured data from HTML tables, lists, and other markup patterns across large numbers of web pages. |
-| Content Extraction | Extract article text, product information, or other content from web pages for NLP pipelines and data analysis. |
-| Screen Scraping Legacy Systems | Automate data extraction from legacy HTML web interfaces that lack modern APIs. |
-| HTML Sanitization | Parse and clean HTML documents by removing unwanted tags, scripts, and formatting. |
-| XML Processing | Parse and query XML documents using Beautiful Soup's tree navigation and search capabilities. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Requests | Python HTTP library used in combination with Beautiful Soup to fetch and parse web pages. |
-| Scrapy | Python web crawling framework that can use Beautiful Soup selectors for content extraction. |
-| lxml | Fast XML and HTML parsing library used as an alternate parser backend for Beautiful Soup. |
-| html5lib | Pure-Python HTML5 parser used with Beautiful Soup for browser-compatible HTML parsing. |
-| Pandas | DataFrame library commonly used with Beautiful Soup to convert scraped HTML tables into structured data. |
-| Selenium | Browser automation tool used with Beautiful Soup to scrape JavaScript-rendered pages. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/beautiful-soup/](https://apis.io/providers/beautiful-soup/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Beautiful Soup: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/beautiful-soup/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
